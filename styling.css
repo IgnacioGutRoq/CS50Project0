@@ -1,0 +1,158 @@
+/*Table Text Color*/
+/*Header's (h2 to h5) text color*/
+/*Header (h1) text color*/
+/*Table Borders*/
+/*Data Style*/
+/*General Font Weight*/
+/*Table text align. Used in Flex too*/
+/*Headers text size. Used in Flex too*/
+body {
+  background-image: url(https://www.slashgear.com/wp-content/uploads/2020/04/star-wars-backgrounds-14.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: auto;
+}
+
+.header {
+  font-weight: bold;
+}
+
+table {
+  border: 2px solid lightgreen;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid lightgreen;
+  color: lightblue;
+  margin: 25px;
+  padding: 4px;
+  width: 30%;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  padding: 20px;
+  text-align: center;
+}
+
+h2, h4, h5 {
+  color: yellow;
+  padding: 10px;
+}
+
+h2, h4, h6 {
+  font-size: 20px;
+}
+
+h4 {
+  margin-left: 50px;
+}
+
+h5 {
+  margin: 5px;
+  font-size: 15px;
+}
+
+h6 {
+  color: #8397b1;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+.list-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.list-group > li {
+  background-color: #464a4f;
+  margin: 20px;
+  width: 200px;
+  height: 100px;
+  padding-bottom: 5%;
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+@media (min-width: 700px) {
+  img, h3, table {
+    color: yellow;
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+  }
+}
+@media (max-width: 700px) {
+  h3, table {
+    font-size: 75%;
+    color: yellow;
+  }
+}
+.grid {
+  background-color: Black;
+  display: grid;
+  padding: 16px;
+  grid-column-gap: 15px;
+  grid-row-gap: 5px;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  background-color: #243824;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  color: #008a8c;
+}
+
+div {
+  font-size: 20px;
+}
+div p {
+  color: yellow;
+}
+div ul {
+  color: black;
+}
+
+.error, .warning, .success {
+  font-family: sans-serif;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  font-style: italic;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.success {
+  background-color: #8dff87;
+}
+
+.warning {
+  background-color: #ffc37a;
+}
+
+.error {
+  background-color: #a63c3c;
+}
+
+/*# sourceMappingURL=styling.css.map */
