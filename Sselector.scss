@@ -123,6 +123,9 @@ img {
       }
 
   }
+  %year{
+    color: $hc;
+  }
 
   %message {
       font-family: sans-serif;
@@ -155,4 +158,7 @@ img {
       @extend %message;
       background-color: #a63c3c;
 
+  }
+ #A, #B, #C, #D, #E, #F, #G, #H, #I, #J, #K, #Ñ{
+   @extend %year;
   }

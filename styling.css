@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Table Text Color*/
 /*Header's (h2 to h5) text color*/
 /*Header (h1) text color*/
@@ -127,6 +128,10 @@ div p {
 }
 div ul {
   color: black;
+}
+
+#A, #B, #C, #D, #E, #F, #G, #H, #I, #J, #K, #Ñ {
+  color: red;
 }
 
 .error, .warning, .success {
